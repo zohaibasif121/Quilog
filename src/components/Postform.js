@@ -5,7 +5,6 @@ import { useState } from 'react'
 import { getAuth } from 'firebase/auth';
 import { firestore } from './firebase';
 import { useNavigate } from 'react-router-dom';
-import Likes from './Likes';
 
 function Postform() {
     const [title, settitle] = useState(``);

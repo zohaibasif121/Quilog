@@ -8,7 +8,10 @@ import Home from './components/Home';
 import Postform from './components/Postform';
 import Profile from './components/Profile';
 import EditProfile from './components/EditProfile';
+
 function App() {
+
+
   return (
     <div className="App">
       
